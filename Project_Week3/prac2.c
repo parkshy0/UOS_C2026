@@ -8,8 +8,6 @@ int main(void) {
 
 
 	printf("서울시립대학교\n전자전기컴퓨터공학부\n");
-	printf("이름 : %s\n", stud_name);
-	printf("학번 : %d\n", stud_num);
-	printf("학점 : %.2f\n", stud_gpa);
+	printf("이름 : %s\n학번 : %d\n학점 : %.2f", stud_name, stud_num, stud_gpa); 
 
 }
